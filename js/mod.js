@@ -1,5 +1,5 @@
 let modInfo = {
-	name: "The Lesbian Tree",
+	name: "The Something Tree",
 	author: "Elxie",
 	pointsName: "Moneys",
 	modFiles: ["layers.js", "tree.js"],
@@ -40,7 +40,6 @@ function canGenPoints(){
 function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
-	if (hasUpgrade('F', 11)) = gain={gain.times(2)}
 	let gain = new Decimal(1)
 	return gain
 }

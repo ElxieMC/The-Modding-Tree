@@ -27,7 +27,7 @@ addLayer("F", {
     layerShown(){return true},
     upgrades: {
         11: {
-            title: "Girlfriends",
+            title: "Something to do with flowers",
             description: "I don't know yet",
             cost: new Decimal(1),
         }
